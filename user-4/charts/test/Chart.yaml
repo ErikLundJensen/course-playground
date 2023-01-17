@@ -30,4 +30,4 @@ dependencies:
     repository: "https://charts.bitnami.com/bitnami"
 
 annotations:
-    preferredNamespace: "user-4"
+  preferredNamespace: "user-4"
