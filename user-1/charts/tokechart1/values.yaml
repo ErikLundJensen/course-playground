@@ -9,7 +9,6 @@ image:
   tag: "6.2.3"
   pullPolicy: IfNotPresent
   # Overrides the image tag whose default is the chart appVersion.
-  tag: ""
 
 imagePullSecrets: []
 nameOverride: ""
@@ -34,7 +33,7 @@ securityContext: {}
   #   drop:
   #   - ALL
   # readOnlyRootFilesystem: true
-  # runAsNonRoot: true
+  runAsNonRoot: false
   # runAsUser: 1000
 
 service:
